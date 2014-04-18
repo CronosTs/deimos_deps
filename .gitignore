@@ -1,0 +1,13 @@
+*.user
+*.opensdf
+*.sdf
+*.suo
+
+bin/
+lib/
+
+project/visual2013/glew/Debug
+project/visual2013/glew/Release
+project/visual2013/SDL Image/Debug
+project/visual2013/SDL Image/Release
+
