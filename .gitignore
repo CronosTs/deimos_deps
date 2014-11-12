@@ -5,6 +5,15 @@
 
 bin/
 lib/
+build/
+
+glew-1.10.0/bin/
+glew-1.10.0/lib/
+glew-1.10.0/build/
+
+SDL_image-1.2.12/bin/
+SDL_image-1.2.12/lib/
+SDL_image-1.2.12/build/
 
 project/visual2013/glew/Debug
 project/visual2013/glew/Release
