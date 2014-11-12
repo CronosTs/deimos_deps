@@ -3,8 +3,8 @@ cmake_minimum_required( VERSION 3.0 )
 #Name your project here
 project( glew-1.10 C )
 
-set( INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include/ )
-set( SOURCE_DIR ${CMAKE_SOURCE_DIR}/src )
+set( INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include/ )
+set( SOURCE_DIR ${PROJECT_SOURCE_DIR}/src )
 set( RUNTIME_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/bin )
 set( LIBRARY_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/lib )
 set( ARCHIVE_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/lib )

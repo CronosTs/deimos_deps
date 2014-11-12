@@ -3,9 +3,9 @@ cmake_minimum_required( VERSION 3.0 )
 #Name your project here
 project( SDL_Image-1.2.12 C )
 
-set( INCLUDE_DIR ${CMAKE_SOURCE_DIR} )
-set( SOURCE_DIR ${CMAKE_SOURCE_DIR} )
-set( EXTERNAL_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/VisualC/external/include )
+set( INCLUDE_DIR ${PROJECT_SOURCE_DIR} )
+set( SOURCE_DIR ${PROJECT_SOURCE_DIR} )
+set( EXTERNAL_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/VisualC/external/include )
 
 set( RUNTIME_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/bin )
 set( LIBRARY_OUTPUT_DIR ${CMAKE_SOURCE_DIR}/lib )
